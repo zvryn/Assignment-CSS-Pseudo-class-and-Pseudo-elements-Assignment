@@ -1,0 +1,22 @@
+input {
+  height: 50px;
+  width: 240px;
+  border-radius: 3px;
+}
+button {
+  width: 120px;
+  height: 36px;
+  background-color: khaki;
+  color: black;
+  border-color: lightgrey;
+}
+
+input:disabled {
+  background-color: lightgrey;
+}
+input:hover {
+  border-color: khaki;
+}
+button:hover {
+  color: pink;
+}
